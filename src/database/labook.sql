@@ -36,3 +36,19 @@ SELECT * from users;
 SELECT * from posts;
 
 SELECT * FROM likes_dislikes;
+
+INSERT INTO
+    users(id, name, email, password, role)
+VALUES (
+        "d40f66ba-1c8f-477b-a522-c87b98064005",
+        "Admin",
+        "admin@email.com",
+        "$2a$12$1XyCZdhqIilauHzzzcNWX.WZOl4kWYfOBlQfXpdybxw4AdDDds.E6",
+        "Admin"
+    );
+
+-- Este usuario acima possui as seguintes credenciais:
+
+-- email: admin@email.com
+
+-- password: LabookAdmin123!
