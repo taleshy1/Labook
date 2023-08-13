@@ -71,7 +71,7 @@ export class UserBusiness {
       exists.name,
       email,
       password,
-      userRole.Normal,
+      exists.role,
       new Date().toISOString()
     )
 
